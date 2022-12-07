@@ -9,6 +9,11 @@ import before from "../images/brown-mma/before.png";
 import dateTime from "../images/brown-mma/date-time.png";
 import blurb from "../images/brown-mma/blurb.png";
 import contrast from "../images/brown-mma/contrast.png";
+import lowFi from "../images/brown-mma/desk-low.png";
+import lowFiMobile from "../images/brown-mma/mobile-low.png";
+import styleGuide from "../images/brown-mma/style-guide.png";
+import demoGif from "../images/brown-mma/website-gif.gif";
+import Carousel from "react-bootstrap/Carousel";
 
 function BrownMMA() {
   return (
@@ -23,8 +28,6 @@ function BrownMMA() {
             ],
             ["Team:", "1 Designer/Developer"],
             ["Timeframe:", "Two weeks"],
-            ["Initial website:", "https://brownmma.com/"],
-            ["Redesign:", "https://cozycat17.github.io/responsive-redesign"],
           ]}
           imgSrc={summaryPicture}
         ></TopSummary>
@@ -195,6 +198,50 @@ function BrownMMA() {
           <b className="section-heading">Lo-Fi</b>
         </Container>
       </Row>
+      <Row>
+        <Figure>
+          <Figure.Image src={lowFi} />
+        </Figure>
+        <Figure className="my-5">
+          <Figure.Image src={lowFiMobile} />
+        </Figure>
+      </Row>
+      <Row className="my-4">
+        <hr></hr>
+      </Row>
+      <Row>
+        <Container className="section">
+          <b className="caps-label">HI-FI DESIGN</b>
+          <b className="section-heading">Hi-Fi</b>
+        </Container>
+      </Row>
+      <Row>
+        <Figure>
+          <Figure.Image src={styleGuide} />
+        </Figure>
+        <b className="mid-heading">Final Demo</b>
+        <Figure>
+          <Figure.Image src={demoGif} />
+        </Figure>
+      </Row>
+      <Row className="my-4">
+        <hr></hr>
+      </Row>
+      <Row>
+        <Container className="section">
+          <b className="caps-label">Conclusion</b>
+          <b className="section-heading">Afterthoughts</b>
+          <p className="paragraph-text">
+            This project truly demonstrated the exponential growth of time as
+            development progresses. The lo-fi design took a fraction of the time
+            that the hi-fi design took. The website development was much more
+            difficult than the hi-fi design. Luckily, by using multiple stages
+            of prototyping, I felt confident that my final development time
+            would be spent on something that was worth the effort.{" "}
+          </p>
+        </Container>
+      </Row>
+      <Row className="py-5 my-5"></Row>
     </Container>
   );
 }
