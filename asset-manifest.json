@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9f49d56f.css",
-    "main.js": "/portfolio/static/js/main.9d2e7190.js",
+    "main.css": "/portfolio/static/css/main.24226e98.css",
+    "main.js": "/portfolio/static/js/main.11ba1ae1.js",
+    "static/media/blurb.png": "/portfolio/static/media/blurb.d920cf98b541587adbf7.png",
+    "static/media/after.png": "/portfolio/static/media/after.e03519e4eb82c7367d98.png",
+    "static/media/before.png": "/portfolio/static/media/before.681a09f616386f2e02cf.png",
+    "static/media/date-time.png": "/portfolio/static/media/date-time.9cba47862cac5b293cdf.png",
     "static/media/cinapse-mockup.png": "/portfolio/static/media/cinapse-mockup.e54fafec6201d1694b8b.png",
     "static/media/plant-gen-mockup.png": "/portfolio/static/media/plant-gen-mockup.fda24372f3639d64f6fa.png",
+    "static/media/contrast.png": "/portfolio/static/media/contrast.c73a87a928f1d5756212.png",
     "static/media/brown-mma-mockup.png": "/portfolio/static/media/brown-mma-mockup.e8a6cd4e47a0adad7334.png",
     "static/media/stars.png": "/portfolio/static/media/stars.948bcfb89449bba36b20.png",
     "index.html": "/portfolio/index.html",
-    "main.9f49d56f.css.map": "/portfolio/static/css/main.9f49d56f.css.map",
-    "main.9d2e7190.js.map": "/portfolio/static/js/main.9d2e7190.js.map"
+    "main.24226e98.css.map": "/portfolio/static/css/main.24226e98.css.map",
+    "main.11ba1ae1.js.map": "/portfolio/static/js/main.11ba1ae1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f49d56f.css",
-    "static/js/main.9d2e7190.js"
+    "static/css/main.24226e98.css",
+    "static/js/main.11ba1ae1.js"
   ]
 }
