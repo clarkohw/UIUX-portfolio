@@ -1,0 +1,35 @@
+.caps-label {
+  font-size: 20px;
+}
+
+.section-heading {
+  font-size: 36px;
+}
+
+.mid-heading {
+  font-size: 26px;
+}
+
+.paragraph-text {
+  font-size: 20px;
+  text-align: left;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.dark-section {
+  background-color: "F2F2F2";
+}
+
+.bullet-box {
+  background-color: "F2F2F2";
+}
+
+.slide-image {
+  width: 75vw;
+}

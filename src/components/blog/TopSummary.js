@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Stack from "react-bootstrap/Stack";
 import "./TopSummary.css";
+import "../CaseStudy.css";
 /*
 Props:
 - details: [[label, value]]
@@ -17,8 +18,8 @@ function TopSummary(props) {
         <Col>
           {props.details.map((pair) => (
             <Stack className="align-items-start">
-              <b>{pair[0]}</b>
-              <p>{pair[1]}</p>
+              <b className="caps-label">{pair[0]}</b>
+              <p className="paragraph-text">{pair[1]}</p>
             </Stack>
           ))}
         </Col>
