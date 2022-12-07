@@ -5,10 +5,48 @@ import stars from "../images/home/stars.png";
 import brownMMA from "../images/home/brown-mma-mockup.png";
 import cinapse from "../images/home/cinapse-mockup.png";
 import plantStudio from "../images/home/plant-gen-mockup.png";
+import storyboard from "../images/home/storyboard-mockup.png";
 import "./Homepage.css";
 import ProjectCard from "./blog/ProjectCard";
 
 function Homepage() {
+  const ProjectGrid = () => (
+    <Container>
+      <Row xs={1} md={2} lg={2} sm={1}>
+        <Col className="my-4">
+          <ProjectCard
+            imgSrc={brownMMA}
+            projectName="BrownMMA"
+            urlName="brown-mma"
+          ></ProjectCard>
+        </Col>
+        <Col className="my-4">
+          <ProjectCard
+            imgSrc={cinapse}
+            projectName="Cinapse"
+            urlName="cinapse"
+          ></ProjectCard>
+        </Col>
+      </Row>
+      <Row xs={1} md={2} lg={2} sm={1}>
+        <Col className="my-4">
+          <ProjectCard
+            imgSrc={plantStudio}
+            projectName="Plant Studio"
+            urlName="plant-studio"
+          ></ProjectCard>
+        </Col>
+        <Col className="my-4">
+          <ProjectCard
+            imgSrc={storyboard}
+            projectName="Storyboard"
+            urlName="storyboard"
+          ></ProjectCard>
+        </Col>
+      </Row>
+    </Container>
+  );
+
   return (
     <div>
       <Container
@@ -43,32 +81,8 @@ function Homepage() {
             <hr></hr>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <ProjectCard
-              imgSrc={brownMMA}
-              projectName="BrownMMA"
-              urlName="brown-mma"
-            ></ProjectCard>
-          </Col>
-          <Col>
-            <ProjectCard
-              imgSrc={cinapse}
-              projectName="Cinapse"
-              urlName="cinapse"
-            ></ProjectCard>
-          </Col>
-          <Row className="justify-content-md-start">
-            <Col>
-              <ProjectCard
-                imgSrc={plantStudio}
-                projectName="Plant Studio"
-                urlName="plant-studio"
-              ></ProjectCard>
-            </Col>
-          </Row>
-        </Row>
       </Container>
+      <ProjectGrid />
     </div>
   );
 }

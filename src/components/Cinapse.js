@@ -17,6 +17,8 @@ import email from "../images/cinapse/email.png";
 import Carousel from "react-bootstrap/Carousel";
 
 function Cinapse() {
+  const Title = () => <h1> Cinapse</h1>;
+
   const Context = () => (
     <Row className="mb-5">
       <Container className="section">
@@ -227,6 +229,7 @@ function Cinapse() {
 
   return (
     <Container fluid className="px-5">
+      <Title />
       <TopSummary
         details={[
           [

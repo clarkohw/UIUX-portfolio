@@ -229,7 +229,7 @@ function BrownMMA() {
       </Row>
       <Row>
         <Container className="section">
-          <b className="caps-label">Conclusion</b>
+          <b className="caps-label">CONCLUSION</b>
           <b className="section-heading">Afterthoughts</b>
           <p className="paragraph-text">
             This project truly demonstrated the exponential growth of time as

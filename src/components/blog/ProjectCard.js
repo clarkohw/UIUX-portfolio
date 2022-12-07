@@ -12,10 +12,10 @@ Props:
 function ProjectCard(props) {
   return (
     <Container fluid className="project-card">
-      <Image fluid src={props.imgSrc} />
+      <Image className="mockup" src={props.imgSrc} fluid />
       <Link to={"/portfolio/work/" + props.urlName}>
         <div className="overlay">
-          <div className="text">{props.projectName}</div>
+          <b className="text">{props.projectName}</b>
         </div>
       </Link>
     </Container>
