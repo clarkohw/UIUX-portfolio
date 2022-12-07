@@ -11,7 +11,7 @@ Props:
 */
 function ProjectCard(props) {
   return (
-    <Container className="project-card">
+    <Container fluid className="project-card">
       <Image fluid src={props.imgSrc} />
       <Link to={"/portfolio/work/" + props.urlName}>
         <div className="overlay">

@@ -3,6 +3,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import stars from "../images/home/stars.png";
 import brownMMA from "../images/home/brown-mma-mockup.png";
+import cinapse from "../images/home/cinapse-mockup.png";
+import plantStudio from "../images/home/plant-gen-mockup.png";
 import "./Homepage.css";
 import ProjectCard from "./ProjectCard";
 
@@ -51,11 +53,20 @@ function Homepage() {
           </Col>
           <Col>
             <ProjectCard
-              imgSrc={brownMMA}
-              projectName="BrownMMA"
-              projectLink="/portfolio/project/brown-mma"
+              imgSrc={cinapse}
+              projectName="Cinapse"
+              urlName="cinapse"
             ></ProjectCard>
           </Col>
+          <Row className="justify-content-md-start">
+            <Col>
+              <ProjectCard
+                imgSrc={plantStudio}
+                projectName="Plant Studio"
+                urlName="plant-studio"
+              ></ProjectCard>
+            </Col>
+          </Row>
         </Row>
       </Container>
     </div>
