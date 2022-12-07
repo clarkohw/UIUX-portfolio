@@ -29,7 +29,7 @@ function BrownMMA() {
           imgSrc={summaryPicture}
         ></TopSummary>
       </Row>
-      <Row>
+      <Row className="my-4">
         <hr></hr>
       </Row>
       <Row className="mb-5">

@@ -8,6 +8,7 @@ import { Nav } from "react-bootstrap";
 import Homepage from "./components/Homepage";
 import About from "./components/About";
 import BrownMMA from "./components/BrownMMA";
+import ScrollToTop from "./components/blog/ScrollToTop";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </Container>
       </Navbar>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/portfolio" element={<Homepage />}></Route>
           <Route
