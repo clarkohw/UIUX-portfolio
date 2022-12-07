@@ -33,3 +33,9 @@
 .slide-image {
   width: 60vw;
 }
+
+.block-quote {
+  padding: 2em;
+  background-color: rgb(215, 215, 215);
+  width: 60%;
+}

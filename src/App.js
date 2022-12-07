@@ -9,6 +9,7 @@ import About from "./components/About";
 import BrownMMA from "./components/BrownMMA";
 import ScrollToTop from "./components/blog/ScrollToTop";
 import Cinapse from "./components/Cinapse";
+import PlantStudio from "./components/PlantStudio";
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
             element={<BrownMMA />}
           ></Route>
           <Route path="/portfolio/work/cinapse" element={<Cinapse />}></Route>
+          <Route
+            path="/portfolio/work/plant-studio"
+            element={<PlantStudio />}
+          ></Route>
           <Route path="/portfolio/about" element={<About />}></Route>
         </Routes>
       </BrowserRouter>

@@ -68,7 +68,7 @@ function Homepage() {
         </Row>
       </Container>
       <Container fluid="md">
-        <Row className="align-items-md-center">
+        <Row className="align-items-md-center mt-4">
           <Col>
             <hr></hr>
           </Col>
