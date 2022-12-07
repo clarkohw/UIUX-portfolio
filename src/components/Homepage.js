@@ -2,7 +2,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import stars from "../images/home/stars.png";
+import brownMMA from "../images/home/brown-mma-mockup.png";
 import "./Homepage.css";
+import ProjectCard from "./ProjectCard";
 
 function Homepage() {
   return (
@@ -40,7 +42,20 @@ function Homepage() {
           </Col>
         </Row>
         <Row>
-          <div>Project grid</div>
+          <Col>
+            <ProjectCard
+              imgSrc={brownMMA}
+              projectName="BrownMMA"
+              urlName="brown-mma"
+            ></ProjectCard>
+          </Col>
+          <Col>
+            <ProjectCard
+              imgSrc={brownMMA}
+              projectName="BrownMMA"
+              projectLink="/portfolio/project/brown-mma"
+            ></ProjectCard>
+          </Col>
         </Row>
       </Container>
     </div>
