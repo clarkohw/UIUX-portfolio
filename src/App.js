@@ -10,6 +10,7 @@ import BrownMMA from "./components/BrownMMA";
 import ScrollToTop from "./components/blog/ScrollToTop";
 import Cinapse from "./components/Cinapse";
 import PlantStudio from "./components/PlantStudio";
+import Storyboard from "./components/Storyboard";
 
 function App() {
   return (
@@ -41,6 +42,10 @@ function App() {
           <Route
             path="/portfolio/work/plant-studio"
             element={<PlantStudio />}
+          ></Route>
+          <Route
+            path="/portfolio/work/storyboard"
+            element={<Storyboard />}
           ></Route>
           <Route path="/portfolio/about" element={<About />}></Route>
         </Routes>
