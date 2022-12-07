@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav } from "react-bootstrap";
 import Homepage from "./components/Homepage";
 import About from "./components/About";
+import BrownMMA from "./components/BrownMMA";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/portfolio" element={<Homepage />}></Route>
+          <Route
+            path="/portfolio/work/brown-mma"
+            element={<BrownMMA />}
+          ></Route>
           <Route path="/portfolio/about" element={<About />}></Route>
         </Routes>
       </BrowserRouter>

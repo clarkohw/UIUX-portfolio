@@ -6,7 +6,7 @@ import brownMMA from "../images/home/brown-mma-mockup.png";
 import cinapse from "../images/home/cinapse-mockup.png";
 import plantStudio from "../images/home/plant-gen-mockup.png";
 import "./Homepage.css";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./blog/ProjectCard";
 
 function Homepage() {
   return (
