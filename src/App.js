@@ -14,12 +14,18 @@ import PlantStudio from "./components/PlantStudio";
 function App() {
   return (
     <div className="App">
-      <Navbar variant="light" bg="light">
+      <Navbar variant="light">
         <Container>
-          <Navbar.Brand href="/portfolio">Cozy Cat</Navbar.Brand>
+          <Navbar.Brand className="nav-name py-4" href="/portfolio">
+            <b>COZY CAT</b>
+          </Navbar.Brand>
           <Nav>
-            <Nav.Link href="/portfolio#work">Work</Nav.Link>
-            <Nav.Link href="/portfolio/about">About</Nav.Link>
+            <Nav.Link className="nav-name" href="/portfolio#work">
+              Work
+            </Nav.Link>
+            <Nav.Link className="nav-name" href="/portfolio/about">
+              About
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>

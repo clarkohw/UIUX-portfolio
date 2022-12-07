@@ -49,8 +49,8 @@ function Homepage() {
 
   return (
     <div>
-      <Container
-        className="home-slide"
+      <div
+        className="home-slide m-0 p-0"
         style={{ backgroundImage: `url(${stars})` }}
       >
         <Row
@@ -66,7 +66,7 @@ function Homepage() {
             </p>
           </Col>
         </Row>
-      </Container>
+      </div>
       <Container fluid="md">
         <Row className="align-items-md-center mt-4">
           <Col>
