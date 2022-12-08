@@ -58,12 +58,14 @@ function Homepage() {
           style={{ height: "100%" }}
         >
           <Col>
-            <h1 className="huge-text">
-              <b>Hello, I'm Cozy Cat</b>
-            </h1>
-            <p style={{ fontSize: "48px", color: "white" }}>
-              Computer science student at Brown University
-            </p>
+            <Container>
+              <h1 className="huge-text">
+                <b>Hello, I'm Cozy Cat</b>
+              </h1>
+              <p style={{ fontSize: "48px", color: "white" }}>
+                Computer science student at Brown University
+              </p>
+            </Container>
           </Col>
         </Row>
       </div>

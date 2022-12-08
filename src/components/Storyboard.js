@@ -1,9 +1,12 @@
 import Container from "react-bootstrap/Container";
 import TopSummary from "./blog/TopSummary";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import Carousel from "react-bootstrap/Carousel";
 import Figure from "react-bootstrap/Figure";
 import printerSetup from "../images/storyboard/printer-sketch.png";
+import helpfulHenry from "../images/storyboard/helpful-henry.png";
+import studentSophie from "../images/storyboard/student-sophie.png";
+import storyboard from "../images/storyboard/storyboard.png";
 
 function Storyboard() {
   const Title = () => <h1>Storyboard and Personas</h1>;
@@ -132,8 +135,61 @@ function Storyboard() {
           that make it easy for users to accomplish their goals.
         </p>
       </Container>
+      <Carousel variant="dark">
+        <Carousel.Item className="p-5">
+          <img
+            className="d-block w-100"
+            src={helpfulHenry}
+            alt="Henry persona"
+          />
+        </Carousel.Item>
+        <Carousel.Item className="p-5">
+          <img
+            className="d-block w-100"
+            src={studentSophie}
+            alt="Sophie persona"
+          />
+        </Carousel.Item>
+      </Carousel>
     </Row>
   );
+
+  const Storyboard = () => (
+    <Row className="mb-5">
+      <Container className="section">
+        <b className="caps-label">STORYBOARD</b>
+        <b className="section-heading">Adding a story</b>
+        <p className="paragraph-text">
+          This storyboard imagines an interaction between Helpful Henry and the
+          printers. It can be used to better empathize with users like Helpful
+          Henry, putting an image and story behind the user.
+        </p>
+      </Container>
+      <Figure>
+        <Figure.Image src={storyboard} />
+      </Figure>
+    </Row>
+  );
+
+  const Reflection = () => (
+    <Row className="mb-5">
+      <Container className="section">
+        <b className="caps-label">CONCLUSION</b>
+        <b className="section-heading">Reflection</b>
+        <p className="paragraph-text">
+          This project helped me realize that for a given interface the user
+          interactions may not be exactly what you expect them to be. I would
+          never have thought to think of the maintenance perspective for the
+          Brown printer system. Only through observation did I come across this
+          user group. Ultimately, I wish I was able to capture more detailed
+          observations on the interface that the IT worker was using, however I
+          was still impressed by how much can be learned by sitting and watching
+          users interact with an interface.
+        </p>
+      </Container>
+    </Row>
+  );
+
   return (
     <Container fluid className="px-5">
       <Title />
@@ -159,6 +215,14 @@ function Storyboard() {
         <hr></hr>
       </Row>
       <Personas />
+      <Row className="my-4">
+        <hr></hr>
+      </Row>
+      <Storyboard />
+      <Row className="my-4">
+        <hr></hr>
+      </Row>
+      <Reflection />
     </Container>
   );
 }
