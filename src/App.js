@@ -11,6 +11,7 @@ import ScrollToTop from "./components/blog/ScrollToTop";
 import Cinapse from "./components/Cinapse";
 import PlantStudio from "./components/PlantStudio";
 import Storyboard from "./components/Storyboard";
+import ContactBar from "./components/blog/ContactBar";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           <Route path="/portfolio/about" element={<About />}></Route>
         </Routes>
       </BrowserRouter>
+      <ContactBar />
     </div>
   );
 }

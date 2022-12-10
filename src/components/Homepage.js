@@ -12,15 +12,15 @@ import ProjectCard from "./blog/ProjectCard";
 function Homepage() {
   const ProjectGrid = () => (
     <Container>
-      <Row xs={1} md={2} lg={2} sm={1}>
-        <Col className="my-4">
+      <Row xs={1} md={2} lg={2} sm={1} xl={2} className="my-3">
+        <Col className="">
           <ProjectCard
             imgSrc={brownMMA}
             projectName="BrownMMA"
             urlName="brown-mma"
           ></ProjectCard>
         </Col>
-        <Col className="my-4">
+        <Col className="">
           <ProjectCard
             imgSrc={cinapse}
             projectName="Cinapse"
@@ -29,14 +29,14 @@ function Homepage() {
         </Col>
       </Row>
       <Row xs={1} md={2} lg={2} sm={1}>
-        <Col className="my-4">
+        <Col className="">
           <ProjectCard
             imgSrc={plantStudio}
             projectName="Plant Studio"
             urlName="plant-studio"
           ></ProjectCard>
         </Col>
-        <Col className="my-4">
+        <Col className="">
           <ProjectCard
             imgSrc={storyboard}
             projectName="Storyboard"

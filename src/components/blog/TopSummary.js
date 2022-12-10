@@ -13,7 +13,7 @@ Props:
 */
 function TopSummary(props) {
   return (
-    <Container>
+    <Container className="mx-0">
       <Row>
         <Col>
           {props.details.map((pair) => (
