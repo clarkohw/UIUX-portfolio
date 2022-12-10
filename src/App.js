@@ -22,7 +22,7 @@ function App() {
             <b>COZY CAT</b>
           </Navbar.Brand>
           <Nav>
-            <Nav.Link className="nav-name" href="/portfolio#work">
+            <Nav.Link className="nav-name" href="/portfolio/#work">
               <b>WORK</b>
             </Nav.Link>
             <Nav.Link className="nav-name" href="/portfolio/about">
@@ -34,18 +34,24 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route path="/portfolio" element={<Homepage />}></Route>
-          <Route path="/portfolio/about" element={<About />}></Route>
+          <Route exact path="/portfolio" element={<Homepage />}></Route>
+          <Route exact path="/portfolio/about" element={<About />}></Route>
           <Route
+            exact
             path="/portfolio/work/brown-mma"
             element={<BrownMMA />}
           ></Route>
-          <Route path="/portfolio/work/cinapse" element={<Cinapse />}></Route>
+          <Route
+            exact
+            path="/portfolio/work/cinapse"
+            element={<Cinapse />}
+          ></Route>
           <Route
             path="/portfolio/work/plant-studio"
             element={<PlantStudio />}
           ></Route>
           <Route
+            exact
             path="/portfolio/work/storyboard"
             element={<Storyboard />}
           ></Route>

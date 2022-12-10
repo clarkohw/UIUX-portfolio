@@ -75,7 +75,7 @@ function Homepage() {
             <hr></hr>
           </Col>
           <Col md="auto">
-            <div style={{ fontSize: "36px" }}>
+            <div id="work" style={{ fontSize: "36px" }}>
               <b>My Projects</b>
             </div>
           </Col>
