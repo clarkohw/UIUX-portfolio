@@ -49,6 +49,7 @@ function App() {
             element={<Storyboard />}
           ></Route>
           <Route path="/portfolio/about" element={<About />}></Route>
+          <Route path="/portfolio/about2" element={<h1>ABOUT 2</h1>}></Route>
         </Routes>
       </BrowserRouter>
       <ContactBar />
