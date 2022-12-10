@@ -23,10 +23,10 @@ function App() {
           </Navbar.Brand>
           <Nav>
             <Nav.Link className="nav-name" href="/portfolio#work">
-              Work
+              <b>WORK</b>
             </Nav.Link>
             <Nav.Link className="nav-name" href="/portfolio/about">
-              About
+              <b>ABOUT</b>
             </Nav.Link>
           </Nav>
         </Container>
@@ -35,6 +35,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/portfolio" element={<Homepage />}></Route>
+          <Route path="/portfolio/about" element={<About />}></Route>
           <Route
             path="/portfolio/work/brown-mma"
             element={<BrownMMA />}
@@ -48,8 +49,6 @@ function App() {
             path="/portfolio/work/storyboard"
             element={<Storyboard />}
           ></Route>
-          <Route path="/portfolio/about" element={<About />}></Route>
-          <Route path="/portfolio/about2" element={<h1>ABOUT 2</h1>}></Route>
         </Routes>
       </BrowserRouter>
       <ContactBar />
