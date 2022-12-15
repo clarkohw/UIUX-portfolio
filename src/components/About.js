@@ -16,24 +16,24 @@ function About() {
         <Col>
           <h1>About Me</h1>
           <p className="paragraph-text">
-            As a software engineer, I am passionate about using my technical
-            skills and knowledge to build innovative and high-quality software
-            solutions. I have a strong foundation in computer science
-            principles, and I have experience with a range of programming
-            languages and technologies, including Java, Python, and React.
+            I am a senior studying computer science at Brown University. Ever
+            since I took CS17 in my freshman year of college, I have been trying
+            to become absorbed in the world of CS. I love everything about the
+            process, from brainstorming ideas to coding them into reality and
+            even debugging.
           </p>
           <p className="paragraph-text">
-            Throughout my career, I have gained experience working on a variety
-            of projects, from web applications and mobile apps to data analysis
-            and machine learning. I am comfortable working independently as well
-            as in a team environment, and I am always looking for opportunities
-            to learn and grow as a software engineer.
+            I love problem-solving and the feeling when parts of your code
+            finally connect: like the first time you successfully connect the
+            frontend and backend of a project, or when you get something to
+            appear on the screen for the first time or when you see the message
+            <em className="tests-passed"> All tests passed!</em>
           </p>
           <p className="paragraph-text">
-            I am committed to staying up-to-date with the latest developments in
-            the field and continuously improving my skills. I am a
-            problem-solver by nature, and I enjoy tackling challenging technical
-            problems and finding creative solutions.
+            Although I love learning about the technical aspects of CS, I also
+            love its creativity. The ability to uniquely synthesize ideas into
+            an app or art project using code is amazing. I my free time I like
+            to write songs and train Jiu-Jitsu.
           </p>
         </Col>
       </Row>
