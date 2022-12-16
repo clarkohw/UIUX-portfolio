@@ -31,6 +31,7 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
+
       <BrowserRouter>
         <ScrollToTop />
         <Routes>

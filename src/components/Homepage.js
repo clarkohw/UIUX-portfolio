@@ -8,6 +8,10 @@ import plantStudio from "../images/home/plant-gen-mockup.png";
 import storyboard from "../images/home/storyboard-mockup.png";
 import "./Homepage.css";
 import ProjectCard from "./blog/ProjectCard";
+import { useCallback } from "react";
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import options from "./particles.json";
 
 function Homepage() {
   const ProjectGrid = () => (
@@ -47,12 +51,21 @@ function Homepage() {
     </Container>
   );
 
+  const particlesInit = useCallback(async (engine) => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+  }, []);
+
+  const particlesLoaded = useCallback(async (container) => {
+    await console.log(container);
+  }, []);
+
   return (
     <div>
-      <div
-        className="home-slide m-0 p-0"
-        style={{ backgroundImage: `url(${stars})` }}
-      >
+      <div className="home-slide m-0 p-0">
         <Row
           className="align-items-center justify-content-center"
           style={{ height: "100%" }}
@@ -65,6 +78,13 @@ function Homepage() {
               <p style={{ fontSize: "48px", color: "white" }}>
                 Computer science student at Brown University
               </p>
+              <Particles
+                id="tsparticles"
+                init={particlesInit}
+                loaded={particlesLoaded}
+                height="66vh"
+                options={options}
+              />
             </Container>
           </Col>
         </Row>

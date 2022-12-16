@@ -6,3 +6,20 @@
 .home-slide {
   height: 66vh;
 }
+
+#tsparticles {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: -100; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+  max-height: 66vh;
+}
+
+#particle-container {
+  /* position: relative; */
+  height: 66vh;
+}
