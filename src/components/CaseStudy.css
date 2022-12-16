@@ -44,3 +44,8 @@
   background-color: rgb(215, 215, 215);
   width: 60%;
 }
+
+.content-container {
+  padding-left: 12rem;
+  padding-right: 12rem;
+}

@@ -191,7 +191,7 @@ function Storyboard() {
   );
 
   return (
-    <Container fluid className="px-5">
+    <Container fluid className="content-container">
       <Title />
       <TopSummary
         details={[

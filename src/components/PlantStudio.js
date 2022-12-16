@@ -253,7 +253,7 @@ function PlantStudio() {
     </Row>
   );
   return (
-    <Container fluid className="page-container px-5">
+    <Container fluid className="content-container">
       <Title />
       <TopSummary
         details={[

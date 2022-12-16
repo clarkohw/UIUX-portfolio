@@ -17,7 +17,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 function BrownMMA() {
   return (
-    <Container fluid className="px-5">
+    <Container fluid className="content-container">
       <Row>
         <h1>BrownMMA</h1>
         <TopSummary
