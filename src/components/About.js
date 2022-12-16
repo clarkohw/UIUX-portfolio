@@ -32,7 +32,7 @@ function About() {
           <p className="paragraph-text">
             Although I love learning about the technical aspects of CS, I also
             love its creativity. The ability to uniquely synthesize ideas into
-            an app or art project using code is amazing. I my free time I like
+            an app or art project using code is amazing. In my free time I like
             to write songs and train Jiu-Jitsu.
           </p>
         </Col>
