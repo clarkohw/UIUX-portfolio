@@ -75,7 +75,7 @@ function Homepage() {
               <h1 className="huge-text">
                 <b>Hello, I'm Cozy Cat</b>
               </h1>
-              <p style={{ fontSize: "48px", color: "white" }}>
+              <p style={{ fontSize: "3vw", color: "white" }}>
                 Computer science student at Brown University
               </p>
               <Particles
