@@ -28,13 +28,13 @@
   },
   "detectRetina": true,
   "duration": 0,
-  "fpsLimit": 120,
+  "fpsLimit": 24,
   "interactivity": {
     "detectsOn": "window",
     "events": {
       "onClick": {
         "enable": true,
-        "mode": ["repulse"]
+        "mode": ["push"]
       },
       "onDiv": {
         "selectors": [],
@@ -98,7 +98,7 @@
       "push": {
         "default": true,
         "groups": [],
-        "quantity": 4
+        "quantity": 3
       },
       "remove": {
         "quantity": 2
@@ -175,20 +175,20 @@
       "bounce": {
         "horizontal": {
           "random": {
-            "enable": false,
+            "enable": true,
             "minimumValue": 0.1
           },
           "value": 1
         },
         "vertical": {
           "random": {
-            "enable": false,
+            "enable": true,
             "minimumValue": 0.1
           },
           "value": 1
         }
       },
-      "enable": false,
+      "enable": true,
       "mode": "bounce",
       "overlap": {
         "enable": true,
