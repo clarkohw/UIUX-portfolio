@@ -5,15 +5,18 @@ import Image from "react-bootstrap/Image";
 import cat from "../images/about/cat.jpeg";
 import "./CaseStudy.css";
 import "./About.css";
+import { Figure } from "react-bootstrap";
 
 function About() {
   return (
-    <Container className="section">
-      <Row>
-        <Col>
-          <Image className="personal-picture" src={cat} rounded />
+    <Container fluid="lg" className="section content-container">
+      <Row className="align-items-center">
+        <Col lg>
+          <Figure className="mt-5">
+            <Figure.Image className="personal-picture" src={cat} rounded />
+          </Figure>
         </Col>
-        <Col>
+        <Col lg>
           <h1>About Me</h1>
           <p className="paragraph-text">
             I am a senior studying computer science at Brown University. Ever
