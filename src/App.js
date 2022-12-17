@@ -16,7 +16,7 @@ import ContactBar from "./components/blog/ContactBar";
 function App() {
   return (
     <div className="App">
-      <Navbar variant="light">
+      <Navbar expand="lg" variant="light">
         <Container>
           <Navbar.Brand className="nav-name py-4" href="/portfolio">
             <b>COZY CAT</b>
