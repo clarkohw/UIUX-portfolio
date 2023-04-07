@@ -9,7 +9,7 @@ const ContactBar = () => {
         <Col xs={12} className="text-center">
           <h4>Get In Touch</h4>
           <p>Interested in working together? I'd love to hear from you!</p>
-          <p>Email: cozycat@example.com</p>
+          <p>Email: clark.ohw@gmail.com</p>
         </Col>
       </Row>
     </Container>

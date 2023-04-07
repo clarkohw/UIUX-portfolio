@@ -19,25 +19,25 @@ function Homepage() {
       <Row xs={1} md={2} lg={2} sm={1} xl={2} className="my-3">
         <Col className="">
           <ProjectCard
-            imgSrc={brownMMA}
-            projectName="BrownMMA"
-            urlName="brown-mma"
+            imgSrc={plantStudio}
+            projectName="Plant Studio"
+            urlName="plant-studio"
           ></ProjectCard>
         </Col>
         <Col className="">
           <ProjectCard
-            imgSrc={cinapse}
-            projectName="Cinapse"
-            urlName="cinapse"
+            imgSrc={brownMMA}
+            projectName="BrownMMA"
+            urlName="brown-mma"
           ></ProjectCard>
         </Col>
       </Row>
       <Row xs={1} md={2} lg={2} sm={1}>
         <Col className="">
           <ProjectCard
-            imgSrc={plantStudio}
-            projectName="Plant Studio"
-            urlName="plant-studio"
+            imgSrc={cinapse}
+            projectName="Cinapse"
+            urlName="cinapse"
           ></ProjectCard>
         </Col>
         <Col className="">
@@ -73,7 +73,7 @@ function Homepage() {
           <Col>
             <Container>
               <h1 className="huge-text">
-                <b>Hello, I'm Cozy Cat</b>
+                <b>Hello, I'm Clark Oh-Willeke</b>
               </h1>
               <p style={{ fontSize: "3vw", color: "white" }}>
                 Computer science student at Brown University

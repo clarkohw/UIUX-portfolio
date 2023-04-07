@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import cat from "../images/about/cat.jpeg";
+import picture from "../images/about/picture.jpeg";
 import "./CaseStudy.css";
 import "./About.css";
 import { Figure } from "react-bootstrap";
@@ -13,7 +13,7 @@ function About() {
       <Row className="align-items-center">
         <Col lg>
           <Figure className="mt-5">
-            <Figure.Image className="personal-picture" src={cat} rounded />
+            <Figure.Image className="personal-picture" src={picture} rounded />
           </Figure>
         </Col>
         <Col lg>

@@ -18,14 +18,14 @@ function App() {
     <div className="App">
       <Navbar expand="lg" variant="light">
         <Container>
-          <Navbar.Brand className="nav-name py-4" href="/portfolio">
-            <b>COZY CAT</b>
+          <Navbar.Brand className="nav-name py-4" href="/UIUX-portfolio">
+            <b>Clark Oh-Willeke</b>
           </Navbar.Brand>
           <Nav>
-            <Nav.Link className="nav-name" href="/portfolio/#work">
+            <Nav.Link className="nav-name" href="/UIUX-portfolio/#work">
               <b>WORK</b>
             </Nav.Link>
-            <Nav.Link className="nav-name" href="/portfolio/about">
+            <Nav.Link className="nav-name" href="/UIUX-portfolio/about">
               <b>ABOUT</b>
             </Nav.Link>
           </Nav>
@@ -35,25 +35,25 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route exact path="/portfolio" element={<Homepage />}></Route>
-          <Route exact path="/portfolio/about" element={<About />}></Route>
+          <Route exact path="/UIUX-portfolio" element={<Homepage />}></Route>
+          <Route exact path="/UIUX-portfolio/about" element={<About />}></Route>
           <Route
             exact
-            path="/portfolio/work/brown-mma"
+            path="/UIUX-portfolio/work/brown-mma"
             element={<BrownMMA />}
           ></Route>
           <Route
             exact
-            path="/portfolio/work/cinapse"
+            path="/UIUX-portfolio/work/cinapse"
             element={<Cinapse />}
           ></Route>
           <Route
-            path="/portfolio/work/plant-studio"
+            path="/UIUX-portfolio/work/plant-studio"
             element={<PlantStudio />}
           ></Route>
           <Route
             exact
-            path="/portfolio/work/storyboard"
+            path="/UIUX-portfolio/work/storyboard"
             element={<Storyboard />}
           ></Route>
         </Routes>
