@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UIUX-portfolio/static/css/main.9ab2a1e7.css",
-    "main.js": "/UIUX-portfolio/static/js/main.b7bc1a90.js",
+    "main.js": "/UIUX-portfolio/static/js/main.61505f42.js",
     "static/media/website-gif.gif": "/UIUX-portfolio/static/media/website-gif.7209cad5777d0a57cf38.gif",
     "static/media/picture.jpeg": "/UIUX-portfolio/static/media/picture.505b5eedfb6d26de9bcf.jpeg",
     "static/media/blurb.png": "/UIUX-portfolio/static/media/blurb.d920cf98b541587adbf7.png",
@@ -38,13 +38,12 @@
     "static/media/mobile-low.png": "/UIUX-portfolio/static/media/mobile-low.5710e0ca0351f8d044e4.png",
     "static/media/printer-sketch.png": "/UIUX-portfolio/static/media/printer-sketch.ca6c3346bb44cac47bb3.png",
     "static/media/cactus.png": "/UIUX-portfolio/static/media/cactus.bc2d25f6c13c8b35bac6.png",
-    "static/media/stars.png": "/UIUX-portfolio/static/media/stars.948bcfb89449bba36b20.png",
     "index.html": "/UIUX-portfolio/index.html",
     "main.9ab2a1e7.css.map": "/UIUX-portfolio/static/css/main.9ab2a1e7.css.map",
-    "main.b7bc1a90.js.map": "/UIUX-portfolio/static/js/main.b7bc1a90.js.map"
+    "main.61505f42.js.map": "/UIUX-portfolio/static/js/main.61505f42.js.map"
   },
   "entrypoints": [
     "static/css/main.9ab2a1e7.css",
-    "static/js/main.b7bc1a90.js"
+    "static/js/main.61505f42.js"
   ]
 }
