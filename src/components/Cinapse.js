@@ -2,7 +2,6 @@ import "./CaseStudy.css";
 import Container from "react-bootstrap/Container";
 import TopSummary from "./blog/TopSummary";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Figure from "react-bootstrap/Figure";
 import summaryImage from "../images/cinapse/top-summary.png";
 import sketch1 from "../images/cinapse/sketch-1.png";

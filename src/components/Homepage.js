@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import stars from "../images/home/stars.png";
 import brownMMA from "../images/home/brown-mma-mockup.png";
 import cinapse from "../images/home/cinapse-mockup.png";
 import plantStudio from "../images/home/plant-gen-mockup.png";

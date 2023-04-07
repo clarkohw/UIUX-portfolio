@@ -13,7 +13,6 @@ import lowFi from "../images/brown-mma/desk-low.png";
 import lowFiMobile from "../images/brown-mma/mobile-low.png";
 import styleGuide from "../images/brown-mma/style-guide.png";
 import demoGif from "../images/brown-mma/website-gif.gif";
-import Carousel from "react-bootstrap/Carousel";
 
 function BrownMMA() {
   return (
